@@ -25,8 +25,8 @@ jobs:
         run: |
           git pull https://VA6573:$HF_TOKEN@huggingface.co/spaces/VA6573/Search_Engine_LLAMA3-8b-8192 main --allow-unrelated-histories || true
 
-      - name: Push to Hugging Face Space
+      - name: ✅ Force push to Hugging Face Space
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          git push https://VA6573:$HF_TOKEN@huggingface.co/spaces/VA6573/Search_Engine_LLAMA3-8b-8192 main
+          git push --force https://VA6573:$HF_TOKEN@huggingface.co/spaces/VA6573/Search_Engine_LLAMA3-8b-8192 main
