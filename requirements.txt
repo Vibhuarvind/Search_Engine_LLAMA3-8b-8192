@@ -1,0 +1,15 @@
+langchain
+ipykernel
+python-dotenv
+langchain_community
+streamlit
+arxiv
+wikipedia
+openai
+faiss-cpu
+pandas
+langchain-openai
+langchain-huggingface
+huggingface_hub
+langchain-groq
+duckduckgo_search
