@@ -1,1 +1,9 @@
-# Search_Engine_LLAMA3-8b-8192
+---
+license: apache-2.0
+title: Search Engine LLM - Llama3
+sdk: streamlit
+emoji: 🏆
+colorFrom: purple
+colorTo: yellow
+short_description: Searches using ARXIV and Wikipedia API tool integration
+---
